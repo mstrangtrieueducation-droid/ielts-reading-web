@@ -22,11 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract public site
+      - name: Prepare public site
         run: |
           rm -rf _site
           mkdir _site
-          7z x ielts-reading-web-release.zip -o_site -y
+          rsync -a ./ _site/ \
+            --exclude .git \
+            --exclude .github \
+            --exclude _site \
+            --exclude ielts-reading-web-release.zip
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
         with:
