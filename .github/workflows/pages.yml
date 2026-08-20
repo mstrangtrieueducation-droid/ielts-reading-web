@@ -26,7 +26,7 @@ jobs:
         run: |
           rm -rf _site
           mkdir _site
-          unzip -q ielts-reading-web-release.zip -d _site
+          7z x ielts-reading-web-release.zip -o_site -y
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
