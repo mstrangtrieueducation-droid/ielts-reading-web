@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">One method of collecting ants</title>
+  <desc id="desc">A lamp heats leaf litter resting on a screen above a funnel. Ants fall into alcohol below. Labels 37 to 40 are blank.</desc>
+  <rect width="900" height="720" fill="#fff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#091338">One method of collecting ants</text>
+  <path d="M430 110h40l32 76h-104z" fill="#fff4a8" stroke="#17213d" stroke-width="4"/>
+  <path d="M450 190v52M400 205l-30 35M500 205l30 35" stroke="#c8a848" stroke-width="7" stroke-linecap="round"/>
+  <rect x="250" y="280" width="400" height="72" rx="8" fill="#d9c7a3" stroke="#17213d" stroke-width="4"/>
+  <path d="M270 300q30-24 62 0t64 0t64 0t64 0t64 0t62 0" fill="none" stroke="#6c5235" stroke-width="9"/>
+  <rect x="270" y="352" width="360" height="28" fill="#dfeee9" stroke="#17213d" stroke-width="4"/>
+  <path d="M300 380h300L510 540H390z" fill="#eef3f1" stroke="#17213d" stroke-width="5"/>
+  <path d="M438 540h24v55h-24z" fill="#eef3f1" stroke="#17213d" stroke-width="4"/>
+  <path d="M375 595h150l-18 82H393z" fill="#d8eef3" stroke="#17213d" stroke-width="4"/>
+  <path d="M410 640q40-22 80 0" fill="none" stroke="#2e6762" stroke-width="5"/>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#17213d">
+    <text x="105" y="170" font-weight="700">37</text><line x1="145" y1="164" x2="370" y2="164" stroke="#17213d" stroke-width="3"/><line x1="370" y1="164" x2="405" y2="202" stroke="#17213d" stroke-width="3"/>
+    <text x="675" y="312" font-weight="700">38</text><line x1="715" y1="306" x2="850" y2="306" stroke="#17213d" stroke-width="3"/><line x1="675" y1="306" x2="620" y2="318" stroke="#17213d" stroke-width="3"/>
+    <text x="105" y="380" font-weight="700">39</text><line x1="145" y1="374" x2="250" y2="374" stroke="#17213d" stroke-width="3"/>
+    <text x="675" y="640" font-weight="700">40</text><line x1="715" y1="634" x2="850" y2="634" stroke="#17213d" stroke-width="3"/><line x1="675" y1="634" x2="520" y2="638" stroke="#17213d" stroke-width="3"/>
+  </g>
+</svg>
