@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Duyệt đầy đủ · IELTS Reading Test 6</title>
+  <style>
+    :root{color-scheme:light;--navy:#07143f;--green:#087465;--line:#dbe3df;--paper:#f5f7f5}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--navy);font-family:Arial,sans-serif}
+    header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:16px 28px;background:var(--navy);color:white}
+    header span{font-size:13px;letter-spacing:.12em}.shell{width:min(1500px,96vw);margin:24px auto 60px}
+    .intro{padding:24px 28px;background:white;border:1px solid var(--line);border-radius:20px}.intro h1{margin:4px 0 8px;font-size:32px}.intro p{margin:0;color:#52606d}
+    nav{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}button{border:1px solid var(--green);border-radius:999px;padding:11px 20px;background:white;color:var(--green);font-weight:800;cursor:pointer}
+    button.active{background:var(--green);color:white}.panel{margin-top:18px;padding:18px;background:white;border:1px solid var(--line);border-radius:20px}
+    .panel-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}.panel h2{margin:0;font-size:21px}.panel p{margin:3px 0 0;color:#687681}
+    iframe{display:block;width:100%;border:1px solid var(--line);border-radius:14px;background:white}.lesson{height:1050px}.exam{height:1200px}.answer{height:1250px}
+    .tip{padding:12px 16px;border-left:4px solid var(--green);background:#edf7f4;color:#24564e;margin:18px 0}
+    @media(max-width:700px){header{padding:13px 16px}.shell{width:94vw}.intro{padding:20px}.lesson{height:900px}.exam{height:1050px}.answer{height:1100px}}
+  </style>
+</head>
+<body>
+  <header><strong>MS. TRANG TRIEU EDUCATION</strong><span>TRANG DUYỆT NỘI BỘ · TEST 6</span></header>
+  <main class="shell">
+    <section class="intro">
+      <p>IELTS READING TEST 6</p>
+      <h1>Duyệt đầy đủ từng passage</h1>
+      <p>Mỗi passage gồm đầy đủ phần từ vựng đã sửa, đề đọc – câu hỏi và đáp án chi tiết theo key.</p>
+    </section>
+    <nav aria-label="Chọn passage">
+      <button class="active" data-passage="1">PASSAGE 1</button>
+      <button data-passage="2">PASSAGE 2</button>
+      <button data-passage="3">PASSAGE 3</button>
+    </nav>
+    <div class="tip">Trang duyệt tự mở toàn bộ nội dung. Cô không cần nhập tên, chọn lớp, nộp sổ từ hay video.</div>
+    <section class="panel">
+      <div class="panel-head"><div><h2>1 · Từ vựng</h2><p>Từ loại đầy đủ · nghĩa · word family · collocation · câu ví dụ ngắn theo văn cảnh</p></div></div>
+      <iframe class="lesson" id="vocabulary" title="Từ vựng Test 6 Passage 1" src="../test-6/passage-1/"></iframe>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><div><h2>2 · Nguyên bài đọc và câu hỏi</h2><p>Tự động vào chế độ làm bài để cô duyệt, không hiện cổng nộp từ vựng hoặc video</p></div></div>
+      <iframe class="exam" id="exam" title="Đề bài Test 6 Passage 1" src="../test-6/passage-1/?internalReview=1"></iframe>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><div><h2>3 · Đáp án chi tiết</h2><p>Đáp án · trích đoạn chứa thông tin · giải thích bám key</p></div></div>
+      <iframe class="answer" id="answer" title="Đáp án Test 6 Passage 1" src="test-6-passage-1.html"></iframe>
+    </section>
+  </main>
+  <script>
+    const vocabulary=document.querySelector('#vocabulary');
+    const exam=document.querySelector('#exam');
+    const answer=document.querySelector('#answer');
+    const addStyle=(frame,css)=>{
+      const style=frame.contentDocument.createElement('style');
+      style.textContent=css;
+      frame.contentDocument.head.appendChild(style);
+    };
+    const prepareVocabulary=()=>setTimeout(()=>{
+      addStyle(vocabulary,'.hero-copy,.gate-panel{display:none!important}.vocab-layout{grid-template-columns:1fr!important}.vocab-stage{padding:24px!important}');
+    },150);
+    const prepareExam=()=>setTimeout(()=>{
+      addStyle(exam,'.submit-zone{display:none!important}');
+    },150);
+    vocabulary.addEventListener('load',prepareVocabulary);
+    exam.addEventListener('load',prepareExam);
+    document.querySelectorAll('[data-passage]').forEach(button=>button.addEventListener('click',()=>{
+      const passage=button.dataset.passage;
+      document.querySelectorAll('[data-passage]').forEach(item=>item.classList.toggle('active',item===button));
+      vocabulary.src=`../test-6/passage-${passage}/`;
+      vocabulary.title=`Từ vựng Test 6 Passage ${passage}`;
+      exam.src=`../test-6/passage-${passage}/?internalReview=1`;
+      exam.title=`Đề bài Test 6 Passage ${passage}`;
+      answer.src=`test-6-passage-${passage}.html`;
+      answer.title=`Đáp án Test 6 Passage ${passage}`;
+      window.scrollTo({top:0,behavior:'smooth'});
+    }));
+  </script>
+</body>
+</html>
