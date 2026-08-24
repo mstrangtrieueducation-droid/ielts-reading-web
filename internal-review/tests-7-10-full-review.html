@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Duyệt nội bộ · IELTS Reading Tests 7–10</title>
+  <style>
+    :root{color-scheme:light;--navy:#07143f;--green:#087465;--line:#dbe3df;--paper:#f5f7f5;--muted:#64717c}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--navy);font-family:Arial,sans-serif}
+    header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:16px 28px;background:var(--navy);color:#fff}
+    header span{font-size:13px;letter-spacing:.12em}.shell{width:min(1500px,96vw);margin:24px auto 60px}
+    .intro,.panel{background:#fff;border:1px solid var(--line);border-radius:20px}.intro{padding:24px 28px}.intro h1{margin:5px 0 8px;font-size:32px}.intro p{margin:0;color:var(--muted)}
+    .toolbar{position:sticky;top:58px;z-index:9;margin:16px 0;padding:14px 16px;background:rgba(245,247,245,.96);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(8px)}
+    .row{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.row+.row{margin-top:10px}.label{width:78px;font-size:12px;font-weight:900;letter-spacing:.08em;color:var(--muted)}
+    button{border:1px solid var(--green);border-radius:999px;padding:10px 18px;background:#fff;color:var(--green);font-weight:800;cursor:pointer}button.active{background:var(--green);color:#fff}
+    .status{margin:16px 0;padding:12px 16px;border-left:4px solid var(--green);background:#edf7f4;color:#24564e}
+    .panel{margin-top:18px;padding:18px}.panel-head{margin-bottom:12px}.panel h2{margin:0;font-size:21px}.panel p{margin:4px 0 0;color:var(--muted)}
+    iframe{display:block;width:100%;border:1px solid var(--line);border-radius:14px;background:#fff}.lesson{height:1050px}.exam{height:1200px}.answer{height:1250px}
+    @media(max-width:700px){header{padding:13px 16px}.shell{width:94vw}.intro{padding:20px}.toolbar{top:52px}.label{width:100%}.lesson{height:900px}.exam{height:1050px}.answer{height:1100px}}
+  </style>
+</head>
+<body>
+  <header><strong>MS. TRANG TRIEU EDUCATION</strong><span>TRANG DUYỆT NỘI BỘ · TESTS 7–10</span></header>
+  <main class="shell">
+    <section class="intro">
+      <p>IELTS READING · KIỂM TRA NỘI BỘ</p>
+      <h1>Duyệt đủ đề, câu hỏi, từ vựng và đáp án</h1>
+      <p>Chọn Test và Passage. Trang tự mở toàn bộ nội dung, không yêu cầu tên, lớp, Google Form hay video.</p>
+    </section>
+    <div class="toolbar">
+      <div class="row"><span class="label">CHỌN TEST</span><button class="active" data-test="7">TEST 7</button><button data-test="8">TEST 8</button><button data-test="9">TEST 9</button><button data-test="10">TEST 10</button></div>
+      <div class="row"><span class="label">PASSAGE</span><button class="active" data-passage="1">PASSAGE 1</button><button data-passage="2">PASSAGE 2</button><button data-passage="3">PASSAGE 3</button></div>
+    </div>
+    <div class="status" id="status">Đang xem IELTS Reading Test 7 · Passage 1.</div>
+    <section class="panel">
+      <div class="panel-head"><h2>1 · Từ vựng</h2><p>Từ loại · nghĩa · word family · collocation dùng được trong IELTS · ví dụ ngắn đúng văn cảnh.</p></div>
+      <iframe class="lesson" id="vocabulary" title="Từ vựng Test 7 Passage 1" src="../test-7/passage-1/"></iframe>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2>2 · Nguyên bài đọc và câu hỏi</h2><p>Tự động vào chế độ duyệt đề; bảng mã A–E/A–J được ghi rõ ngay dưới hướng dẫn.</p></div>
+      <iframe class="exam" id="exam" title="Đề bài Test 7 Passage 1" src="../test-7/passage-1/?internalReview=1"></iframe>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2>3 · Đáp án chi tiết</h2><p>Đáp án · trích đoạn chứa thông tin · giải thích bám sát key chi tiết cô cung cấp.</p></div>
+      <iframe class="answer" id="answer" title="Đáp án Test 7 Passage 1" src="test-7-passage-1.html"></iframe>
+    </section>
+  </main>
+  <script>
+    let test=7,passage=1;
+    const vocabulary=document.querySelector('#vocabulary');
+    const exam=document.querySelector('#exam');
+    const answer=document.querySelector('#answer');
+    const status=document.querySelector('#status');
+    const addStyle=(frame,css)=>{
+      const style=frame.contentDocument.createElement('style');
+      style.textContent=css;
+      frame.contentDocument.head.appendChild(style);
+    };
+    vocabulary.addEventListener('load',()=>setTimeout(()=>addStyle(vocabulary,'.hero-copy,.gate-panel{display:none!important}.vocab-layout{grid-template-columns:1fr!important}.vocab-stage{padding:24px!important}'),150));
+    exam.addEventListener('load',()=>setTimeout(()=>addStyle(exam,'.submit-zone{display:none!important}'),150));
+    const loadSelection=()=>{
+      const label=`Test ${test} Passage ${passage}`;
+      vocabulary.src=`../test-${test}/passage-${passage}/`;
+      vocabulary.title=`Từ vựng ${label}`;
+      exam.src=`../test-${test}/passage-${passage}/?internalReview=1`;
+      exam.title=`Đề bài ${label}`;
+      answer.src=`test-${test}-passage-${passage}.html`;
+      answer.title=`Đáp án ${label}`;
+      status.textContent=`Đang xem IELTS Reading Test ${test} · Passage ${passage}.`;
+    };
+    document.querySelectorAll('[data-test]').forEach(button=>button.addEventListener('click',()=>{
+      test=Number(button.dataset.test);
+      document.querySelectorAll('[data-test]').forEach(item=>item.classList.toggle('active',item===button));
+      loadSelection();
+      window.scrollTo({top:0,behavior:'smooth'});
+    }));
+    document.querySelectorAll('[data-passage]').forEach(button=>button.addEventListener('click',()=>{
+      passage=Number(button.dataset.passage);
+      document.querySelectorAll('[data-passage]').forEach(item=>item.classList.toggle('active',item===button));
+      loadSelection();
+      window.scrollTo({top:0,behavior:'smooth'});
+    }));
+  </script>
+</body>
+</html>
