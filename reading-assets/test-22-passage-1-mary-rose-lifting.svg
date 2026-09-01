@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Raising the hull of the Mary Rose: stages one and two</title>
+  <desc id="desc">A process diagram with answer blanks 9 to 13.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#0b1b43"/>
+    </marker>
+    <style>
+      .line{stroke:#0b1b43;stroke-width:4;fill:none}.heavy{stroke:#0b1b43;stroke-width:8;fill:none}.soft{fill:#f3f7f5;stroke:#bfd0cc;stroke-width:3}.mud{fill:#d8c5a2}.water{fill:#d9eff6}.blank{fill:#fff7d2;stroke:#d49c18;stroke-width:3}.label{font:700 22px Arial,sans-serif;fill:#0b1b43}.copy{font:20px Arial,sans-serif;fill:#0b1b43}.small{font:18px Arial,sans-serif;fill:#52627e}.num{font:800 20px Arial,sans-serif;fill:#9a6400}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="#fff"/>
+  <text x="600" y="46" text-anchor="middle" class="label">RAISING THE HULL OF THE MARY ROSE: STAGES ONE AND TWO</text>
+  <rect x="52" y="84" width="484" height="250" rx="20" class="soft"/>
+  <text x="76" y="120" class="label">STAGE ONE</text>
+  <rect x="84" y="150" width="300" height="42" rx="8" class="blank"/>
+  <text x="98" y="178" class="num">9</text>
+  <text x="84" y="220" class="copy">attached to the hull by wires</text>
+  <path d="M148 250L242 300M324 250L242 300" class="line"/>
+  <path d="M160 293Q242 250 324 293L302 318H182Z" fill="#8a5b3d" stroke="#0b1b43" stroke-width="4"/>
+  <rect x="388" y="148" width="122" height="42" rx="8" class="blank"/>
+  <text x="401" y="176" class="num">10</text>
+  <text x="386" y="220" class="small">prevent the hull</text>
+  <text x="386" y="245" class="small">being sucked</text>
+  <text x="386" y="270" class="small">into the mud</text>
+  <rect x="60" y="318" width="460" height="16" class="mud"/>
+
+  <path d="M548 210H650" class="line" marker-end="url(#arrow)"/>
+  <rect x="664" y="84" width="484" height="516" rx="20" class="soft"/>
+  <text x="688" y="120" class="label">STAGE TWO</text>
+  <path d="M905 138V208" class="heavy"/>
+  <path d="M858 208H952" class="heavy"/>
+  <text x="966" y="186" class="small">crane hook</text>
+  <path d="M872 212L804 326M938 212L1006 326" class="line"/>
+  <path d="M792 326H1018" class="heavy"/>
+  <rect x="700" y="238" width="180" height="42" rx="8" class="blank"/>
+  <text x="713" y="266" class="num">11</text>
+  <text x="700" y="304" class="small">guide the legs into position</text>
+  <path d="M800 350Q905 292 1010 350L975 390H835Z" fill="#8a5b3d" stroke="#0b1b43" stroke-width="4"/>
+  <path d="M778 406H1032L1008 506H802Z" fill="#dbe7e4" stroke="#0b1b43" stroke-width="5"/>
+  <rect x="742" y="532" width="326" height="42" rx="8" class="blank"/>
+  <text x="756" y="560" class="num">12</text>
+  <text x="741" y="596" class="small">The hull is lowered into this support.</text>
+
+  <rect x="52" y="382" width="484" height="218" rx="20" class="soft"/>
+  <text x="76" y="420" class="copy">Extra cushioning around the fragile hull:</text>
+  <rect x="76" y="445" width="350" height="42" rx="8" class="blank"/>
+  <text x="90" y="473" class="num">13</text>
+  <circle cx="138" cy="542" r="34" fill="#b6dcf0" stroke="#0b1b43" stroke-width="4"/>
+  <circle cx="230" cy="542" r="34" fill="#b6dcf0" stroke="#0b1b43" stroke-width="4"/>
+  <circle cx="322" cy="542" r="34" fill="#b6dcf0" stroke="#0b1b43" stroke-width="4"/>
+  <text x="76" y="586" class="small">used as extra protection for the timber framework</text>
+
+  <path d="M904 610V670" class="line" marker-end="url(#arrow)"/>
+  <rect x="708" y="670" width="392" height="52" rx="14" fill="#e8f7ef" stroke="#4c9277" stroke-width="3"/>
+  <text x="904" y="703" text-anchor="middle" class="copy">Hull fully supported and ready to be lifted</text>
+  <text x="58" y="734" class="small">Questions 9–13 · Choose NO MORE THAN TWO WORDS from the passage for each answer.</text>
+</svg>
