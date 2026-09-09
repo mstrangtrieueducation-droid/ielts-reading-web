@@ -75,7 +75,7 @@ function payload(id=oldId,answers={'1':'original answer','2':'second answer','3'
     ['single','catch(error){window.IELTS_READING_DRAFTS.fail(t.code,l,error);','\n  finally{ee(!1)}','le'],
     ['full','catch(error){window.IELTS_READING_DRAFTS.fail(e.code,r,error);','\n  finally{m(!1)}','ae']
   ])await test(label+' actual failure callback adopts the fresh rejected-attempt ID',async()=>{
-    const catchBlock=extract(from,to),body=catchBlock.slice('catch(error){'.length,-1);
+    const catchBlock=extract(from,to).trimEnd(),body=catchBlock.slice('catch(error){'.length,-1);
     const ctx=vm.createContext({window:{IELTS_READING_DRAFTS:{fail(){},read:()=>({snapshot:{submissionId:newId}}),message:()=>'',warning:()=>''}},t:{code:assignment},e:{code:assignment},l:student,r:student,le:{current:oldId},ae:{current:oldId},C(){},g(){}});
     vm.runInContext('function run(error){'+body+'};run({code:"INVALID_ANSWERS"});',ctx);assert.equal(ctx[ref].current,newId);
   });
