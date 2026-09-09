@@ -1,0 +1,608 @@
+{
+  "version": 1,
+  "kind": "reading",
+  "publicBase": "/ielts-reading-web/",
+  "pages": [
+    {
+      "file": "00ff25c5793888/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "07a8a8142ac5fb/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "0a58769939e0a0/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "0d1ed2605c8789/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "0d3d7f278e4a1c/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "11cff754b246a7/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "19c3bd07ea6523/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "21d181f01ad0b9/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "271769222feda2/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "2ca79d398722f9/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "350cf5ffce3e7a/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "35dd5c9da4abce/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "3cc9b3cc60f6d5/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "3d923ead041a6e/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "404.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "4826bbe4bcb5f4/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "5b4ef13d35457b/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "6bd7fb24bbd064/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "8049da9f63ea7d/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "916d4ce6b16051/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "939b4bd5b464bc/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "9cc5758d751268/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "9faca690d9d4b3/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "a2066bb686dc33/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "a6b90b2e81437c/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "adddf2ed73f2a5/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "ae3a33344a8799/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "aed5ad0ba6dd89/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "b8440a46d5d5f6/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "bc207c99b3d694/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "bd1f59c5fb3c55/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "c0088c13afc3e9/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "c612117a403de9/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "c634011c0577a1/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "cfda87a706e957/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "e13aba3ccafc03/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "e18338b8174730/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "e41040e57f05d0/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "e99ada309769e0/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "f23b106fc7d2ee/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    },
+    {
+      "file": "fbb760483c2dab/index.html",
+      "expected": [
+        {
+          "role": "client",
+          "file": "assets/submission-client.1608db39982c.js"
+        },
+        {
+          "role": "module",
+          "file": "assets/index-90f0dbd8a1fb.js"
+        }
+      ],
+      "inline": []
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/submission-client.1608db39982c.js",
+      "sha256": "1608db39982c70e90c33691bfaa88b6469122679f4c3b33dc7d67015af7f5924",
+      "requires": [
+        "enqueueListening(",
+        "subscribe(listener)",
+        "async lookup(",
+        "indexedDB.open",
+        "SUBMISSION_PAYLOAD_CHANGED",
+        "validateReceipt(payload"
+      ]
+    },
+    {
+      "file": "assets/index-90f0dbd8a1fb.js",
+      "sha256": "90f0dbd8a1fb90a98f7e09de0da9afaa2c0563f26456866c3d27d14c8a3d4c82",
+      "requires": [
+        "window.IELTSSubmission.send(",
+        "window.IELTSSubmission.subscribe(",
+        "window.IELTSSubmission.lookup(",
+        "window.IELTS_READING_DRAFTS.prepare(",
+        "window.IELTS_READING_DRAFTS.confirmResult(",
+        "window.IELTS_READING_DRAFTS.commit(",
+        "window.IELTS_READING_DRAFTS.fail("
+      ]
+    }
+  ]
+}
