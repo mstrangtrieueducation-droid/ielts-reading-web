@@ -22,6 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save playwright@1.58.2
+      - run: npx playwright install --with-deps chromium
+      - run: node tests/ielts-submission/client.test.cjs
+      - run: node tests/ielts-submission/cross-tab.test.cjs
+      - run: DENY_LOCAL=1 node tests/ielts-submission/cross-tab.test.cjs
+      - run: node tests/ielts-submission/reading-drafts.regression.test.cjs assets/index-90f0dbd8a1fb.js
       - name: Prepare public site
         run: |
           rm -rf _site
@@ -29,6 +38,9 @@ jobs:
           rsync -a ./ _site/ \
             --exclude .git \
             --exclude .github \
+            --exclude tests \
+            --exclude node_modules \
+            --exclude package-lock.json \
             --exclude _site \
             --exclude internal-review \
             --exclude ielts-reading-web-release.zip
