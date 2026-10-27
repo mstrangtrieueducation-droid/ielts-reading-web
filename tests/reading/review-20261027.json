@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-27",
+  "scope": {
+    "passageRoutes": 27,
+    "fullTestRoutes": 13,
+    "passages": 66,
+    "questionIds": 880
+  },
+  "rootCause": "Heading parser recognized a numeric range but ignored the second number in Questions 25 and 26. Full Test 22 Passage 2 rendered only Q25 and could never reach 40 answered questions.",
+  "repair": "Replace shared question-heading parser; support dash, and, ampersand and comma notation. No test-specific patch. All other bundle bytes retained.",
+  "verification": {
+    "nativeBackendVersion": 19,
+    "nativeMultipleAnswerGroups": 9,
+    "nativeGrading": "Read-only capture, evaluated offline: order-independent scoring and repeated-answer handling passed. No backend changes.",
+    "browser": "All 40 routes, 880 answer IDs in intercepted submission payloads; full Test 22 mobile and reload preserve Q25/Q26.",
+    "draftRegressions": 13,
+    "realSubmissionsCreated": 0
+  },
+  "limits": "Structural/rendering/submission-payload audit, not a new independent official-book verification of every Reading answer key.",
+  "freeze": {
+    "publicRestoreCheck": "44 classes / 19 assets passed; no dashboard released or changed",
+    "localCheck": "Six pre-existing generated Fighter files differ. No protected core files changed by this task."
+  }
+}

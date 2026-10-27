@@ -31,7 +31,9 @@ jobs:
       - run: node tests/ielts-submission/client.test.cjs
       - run: node tests/ielts-submission/cross-tab.test.cjs
       - run: DENY_LOCAL=1 node tests/ielts-submission/cross-tab.test.cjs
-      - run: node tests/ielts-submission/reading-drafts.regression.test.cjs assets/index-90f0dbd8a1fb.js
+      - run: node tests/ielts-submission/reading-drafts.regression.test.cjs assets/index-b684a469a2c2.js
+      - run: node tests/reading/question-coverage.test.cjs
+      - run: node tests/reading/question-ui.test.cjs
       - name: Prepare public site
         run: |
           rm -rf _site
@@ -40,6 +42,7 @@ jobs:
             --exclude .git \
             --exclude .github \
             --exclude tests \
+            --exclude scripts \
             --exclude node_modules \
             --exclude package-lock.json \
             --exclude _site \
